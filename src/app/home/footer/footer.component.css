@@ -7,6 +7,9 @@
     color: white;
     text-align: center;
   }
-  #footer-menu{
+#footer-menu{
     display: inline;
   }
+#unordered-list{
+  display: inline;
+}
