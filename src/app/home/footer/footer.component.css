@@ -12,4 +12,5 @@
   }
 #unordered-list{
   float: left;
+  display: inline;
 }
