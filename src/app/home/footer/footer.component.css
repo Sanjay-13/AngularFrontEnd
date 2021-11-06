@@ -5,11 +5,11 @@
     width: 100%;
     background-color: coral;
     color: white;
-    text-align: center;
+    text-align: lefts;
   }
 #footer-menu{
     display: inline;
   }
 #unordered-list{
-  display: inline;
+  float: left;
 }
