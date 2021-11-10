@@ -5,5 +5,12 @@
     width: 100%;
     background-color:lavender ;
     color: white;
-    text-align: center;
+    text-align: left;
   }
+#footer-menu{
+    display: inline;
+  }
+#unordered-list{
+  float: left;
+  display: inline;
+}
