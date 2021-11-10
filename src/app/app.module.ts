@@ -31,7 +31,8 @@ import { ListComponent } from './list/list.component';
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'login', component: LoginComponent},
-      {path: 'list', component: ListComponent}
+      {path: 'list', component: ListComponent},
+      {path:'register',component:RegisterComponent},
     ]),
   ],
   bootstrap: [AppComponent]
