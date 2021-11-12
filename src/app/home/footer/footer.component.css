@@ -3,14 +3,11 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:lavender ;
+    background-color:#006747;
     color: white;
-    text-align: left;
+    text-align: center;
   }
 #footer-menu{
     display: inline;
   }
-#unordered-list{
-  float: left;
-  display: inline;
-}
+  a { color: white; }
