@@ -1,0 +1,28 @@
+* {box-sizing:border-box}
+
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding: 30px;
+    background-color:#006747;
+    color: white
+}
+.navbar #title{
+    text-align: center;
+    color:white;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+
+}
+#navbarSupportedContent a{
+    color:white
+}
