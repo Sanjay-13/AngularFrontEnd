@@ -1,5 +1,5 @@
 input[type=text], input[type=password] {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -15,7 +15,7 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 50%;
+    width: 100%;
   }
   
   /* Add a hover effect for buttons */
@@ -36,12 +36,6 @@ input[type=text], input[type=password] {
     margin: 24px 0 12px 0;
   }
   
-  /* Avatar image */
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
-  
   /* Add padding to containers */
   .container {
     padding: 16px;
@@ -58,8 +52,5 @@ input[type=text], input[type=password] {
     span.psw {
       display: block;
       float: none;
-    }
-    .cancelbtn {
-      width: 100%;
     }
   }
