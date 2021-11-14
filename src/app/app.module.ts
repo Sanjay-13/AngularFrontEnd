@@ -31,6 +31,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatCardModule,
     FlexLayoutModule,
     RouterModule.forRoot([
+      {path:'', redirectTo: 'home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'login', component: LoginComponent},
       {path: 'list', component: ListComponent},
