@@ -1,9 +1,27 @@
-.container{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 30%;
-    margin-bottom: 2%;
+.container {
+        padding: 16px;
     }
-    mat-card{
-    min-width: 20%;
+.container button:hover {
+        opacity: 0.9;
+      }
+    
+.container > mat-card {
+        width: 450px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
     }
+.container button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #006747;
+        text-align: center;
+        cursor: pointer;
+        width: 50%;
+        font-size: 18px;
+      }
+.container img{
+    width:100%
+}

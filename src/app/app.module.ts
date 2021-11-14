@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
 import { ListComponent } from './list/list.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { ListComponent } from './list/list.component';
     HttpClientModule,
     MatSelectModule,
     MatCardModule,
+    FlexLayoutModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'login', component: LoginComponent},
