@@ -10,7 +10,7 @@
     font-family: arial;
 }
 .container #header{
-    margin-left: 25%;
+    margin-left: 30%;
 }
 .container img{
     width:250px;
@@ -33,6 +33,10 @@
     font-size: 18px;
     margin-left: 25%;
   }
+  .container button:hover {
+    opacity: 0.9;
+  }
+
 .mat-elevation-z4{
     margin: 0 8px
 }
