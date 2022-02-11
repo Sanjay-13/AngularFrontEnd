@@ -1,16 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '@auth0/auth0-angular';
 
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
+  template:'<button type="submit" (click)="loginWithRedirect()">Login</button>',
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(public auth: AuthService) { }
 
   ngOnInit(): void {
   }
-
+  loginWithRedirect(): void {
+    this.auth.loginWithRedirect();
+  }
 }

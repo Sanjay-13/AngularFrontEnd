@@ -1,0 +1,6 @@
+{
+    "domain":"dev-88-8t7vx.us.auth0.com",
+    "clientId":"oh0FzM70OZ4UBsPLPIk6ph2NvV2YChHd",
+    "clientSecret":"olm5zkdXHEDeCjgn39ReQayaDdCA8bYp9Qb738T7m5xO--YvwGfhimJ4-WrgE_OC",
+    "redirect_uri":"https://herokuangtopic.herokuapp.com/callback"
+}
