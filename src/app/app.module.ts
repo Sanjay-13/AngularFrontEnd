@@ -13,7 +13,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
 import { ListComponent } from './list/list.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { AuthModule } from '@auth0/auth0-angular';
+
 import { environment as env } from '../environments/environment';
 @NgModule({
   declarations: [
@@ -39,9 +39,6 @@ import { environment as env } from '../environments/environment';
       {path: 'list', component: ListComponent},
       {path:'register',component:RegisterComponent},
     ]),
-    AuthModule.forRoot({
-      ...env.auth.package_info,
-    }),
   ],
   bootstrap: [AppComponent]
 })
