@@ -13,6 +13,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
 import { ListComponent } from './list/list.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { AuthModule } from '@auth0/auth0-angular';
 
 import { environment as env } from '../environments/environment';
 @NgModule({
@@ -39,6 +40,10 @@ import { environment as env } from '../environments/environment';
       {path: 'list', component: ListComponent},
       {path:'register',component:RegisterComponent},
     ]),
+    AuthModule.forRoot({
+      domain: 'dev-88-8t7vx.us.auth0.com',
+      clientId: 'pCJy6qhxeDF3sONox6JriTzr8zkHjTMa'
+    }),
   ],
   bootstrap: [AppComponent]
 })
