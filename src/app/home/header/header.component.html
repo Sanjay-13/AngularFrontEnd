@@ -15,7 +15,7 @@
                 <a class="nav-link" routerLink="/list">Topics</a>
             </li>
             <li class="nav-item" routerLinkActive = "active">
-                <a class="nav-link" routerLink="/register">SignUp</a>
+                <a class="nav-link" *ngIf="(auth.isAuthenticated$ | async) === false" (click)="auth.loginWithRedirect()">SignUp</a>
             </li>
             <li class="nav-item" routerLinkActive = "active">
                 <button type="submit" class="loginbtn" *ngIf="(auth.isAuthenticated$ | async) === false" (click)="auth.loginWithRedirect()">Login</button>
