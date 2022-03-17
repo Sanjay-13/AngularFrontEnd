@@ -1,5 +1,5 @@
 # AngularFrontend
-
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/27ceede215ce433884ac76ffb2dc4fb9)](https://www.codacy.com/gh/Sanjay-13/AngularFrontEnd/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sanjay-13/AngularFrontEnd&amp;utm_campaign=Badge_Grade)
 ### Technology Stack Description:
 
 ### Backend language + framework
