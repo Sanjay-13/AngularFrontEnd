@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './home/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './home/footer/footer.component';
-import { RegisterComponent } from './register/register.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
 import { ListComponent } from './list/list.component';
@@ -19,7 +18,6 @@ import { AuthModule } from '@auth0/auth0-angular';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    RegisterComponent,
     ListComponent,
   ],
   imports: [
@@ -33,7 +31,6 @@ import { AuthModule } from '@auth0/auth0-angular';
       {path:'', redirectTo: 'home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
       {path: 'list', component: ListComponent},
-      {path:'register',component:RegisterComponent},
     ]),
     AuthModule.forRoot({
       domain: 'dev-88-8t7vx.us.auth0.com',
