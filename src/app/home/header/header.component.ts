@@ -7,7 +7,7 @@ import { DOCUMENT } from '@angular/common';
   templateUrl: './header.component.html',
   template:`
   <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
-    <button (click)="auth.logout({ returnTo: document.location.origin })">
+    <button (click)="auth.logout({returnTo: document.location.origin })">
       Logout
     </button>
   </ng-container>
