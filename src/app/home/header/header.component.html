@@ -12,7 +12,10 @@
                 <a class="nav-link" routerLink="/home">Home</a>
             </li>
             <li class="nav-item" routerLinkActive = "active">
-                <a class="nav-link" routerLink="/list">Topics</a>
+                <a class="nav-link" routerLink="/topicslist">Topics</a>
+            </li>
+            <li class="nav-item" routerLinkActive = "active">
+                <a class="nav-link" routerLink="/create-topic">Add Topic</a>
             </li>
             <li class="nav-item" routerLinkActive = "active">
                 <button type="submit" class="loginbtn" *ngIf="(auth.isAuthenticated$ | async) === false" (click)="auth.loginWithRedirect()">Login/Register</button>
