@@ -36,6 +36,8 @@
 
 ## [Link to JavaDoc](file:///C:/Users/S541669/Documents/EclipseProjects/topicoftheday/doc/index.html)
 
+## [Link to Swagger](http://localhost:8080/swagger-ui.html#/topics-controller)
+
 ## Angular CLI Version
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
