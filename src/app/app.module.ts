@@ -9,16 +9,22 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './home/footer/footer.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
-import { ListComponent } from './list/list.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AuthModule } from '@auth0/auth0-angular';
+import { TopicslistComponent } from './topicslist/topicslist.component';
+import { CreateTopicComponent } from './create-topic/create-topic.component';
+import { TopicDetailsComponent } from './topic-details/topic-details.component';
+import { UpdateTopicsComponent } from './update-topics/update-topics.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    ListComponent,
+    CreateTopicComponent,
+    TopicDetailsComponent,
+    TopicslistComponent,
+    UpdateTopicsComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,6 @@ import { AuthModule } from '@auth0/auth0-angular';
       {path: 'create-topic', component: CreateTopicComponent},
       {path:'update-topics/:id', component: UpdateTopicsComponent},
       {path:'topic-details/:id', component: TopicDetailsComponent},
-
     ]),
     AuthModule.forRoot({
       domain: 'dev-88-8t7vx.us.auth0.com',

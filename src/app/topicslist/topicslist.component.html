@@ -1,0 +1,20 @@
+<h2> Topics List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> TopicName</th>
+            <th> Description </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let topic of topics" >
+            <td> {{ topic.topicName }} </td>
+            <td> {{ topic.description }} </td>
+            <td>
+                <button (click) = "updateTopics(topic.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteTopics(topic.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "topicDetails(topic.id)" class = "btn btn-info" style="margin-left: 10px"> ViewTopics</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
