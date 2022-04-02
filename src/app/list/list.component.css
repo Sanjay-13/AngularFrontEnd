@@ -1,0 +1,51 @@
+.container {
+    padding: 10px;
+    margin-top: 5%;
+}
+
+.container > mat-card {
+    width: 300px;
+    margin:auto;
+    text-align: center;
+    font-family: arial;
+}
+.container #header{
+    margin-left: 30%;
+}
+.container img{
+    width:250px;
+    height: 151px;
+    padding: auto;
+    margin-left: 10%;
+}
+.container p{
+    text-align: center;
+}
+.container button {
+    border: none;
+    outline: 0;
+    padding: 6px;
+    color: white;
+    background-color: #006747;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+    margin-left: 25%;
+  }
+  .container button:hover {
+    opacity: 0.9;
+  }
+
+.mat-elevation-z4{
+    margin: 0 8px
+}
+.mat-elevation-z5{
+    margin: 0 8px
+}
+.mat-elevation-z5{
+    width:350px
+}
+.mat-elevation-z6{
+    width:350px
+}

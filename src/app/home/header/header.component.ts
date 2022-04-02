@@ -13,7 +13,7 @@ import { DOCUMENT } from '@angular/common';
   </ng-container>
 
   <ng-template #loggedOut>
-    <button (click)="auth.loginWithRedirect()">Login/Register</button>
+    <button (click)="auth.loginWithRedirect()">Login</button>
   </ng-template>
 `,
   styleUrls: ['./header.component.css']

@@ -1,18 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { TopicslistComponent } from './topicslist/topicslist.component';
-import { CreateTopicComponent } from './create-topic/create-topic.component';
-import { TopicDetailsComponent } from './topic-details/topic-details.component';
-import { UpdateTopicsComponent } from './update-topics/update-topics.component';
+import { ListComponent } from './list/list.component';
+import { RegisterComponent } from './register/register.component';
 
 
 const routes: Routes = [{path: '/', component: HomeComponent},
-                        {path: 'home', component: HomeComponent},
-                        {path: 'topicslist', component:TopicslistComponent },
-                        {path:'update-topics/:id', component: UpdateTopicsComponent},
-                        {path:'topic-details/:id', component: TopicDetailsComponent},
-];
+  {path: 'home', component: HomeComponent},
+  {path: 'list', component: ListComponent}
+,{path:'SignUp', component: RegisterComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

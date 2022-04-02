@@ -9,20 +9,16 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './home/footer/footer.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
+import { ListComponent } from './list/list.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AuthModule } from '@auth0/auth0-angular';
-import { TopicslistComponent } from './topicslist/topicslist.component';
-import { CreateTopicComponent } from './create-topic/create-topic.component';
-import { TopicDetailsComponent } from './topic-details/topic-details.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    TopicslistComponent,
-    CreateTopicComponent,
-    TopicDetailsComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +30,6 @@ import { TopicDetailsComponent } from './topic-details/topic-details.component';
     RouterModule.forRoot([
       {path:'', redirectTo: 'home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
-<<<<<<< HEAD
       {path: 'topicslist', component: TopicslistComponent},
       {path: 'create-topic', component: CreateTopicComponent},
       {path:'update-topics/:id', component: UpdateTopicsComponent},

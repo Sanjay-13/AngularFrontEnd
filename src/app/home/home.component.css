@@ -1,6 +1,6 @@
 .container {
         padding: 16px;
-        margin-top: 1%
+        margin-top: 3%
     }
 .container button:hover {
         opacity: 0.9;
@@ -29,6 +29,7 @@
 }
 .container #topics{
     border: none;
+    outline: 1;
     padding: 12px;
     color: white;
     background-color: #006747;
