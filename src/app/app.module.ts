@@ -14,7 +14,6 @@ import { AuthModule } from '@auth0/auth0-angular';
 import { TopicslistComponent } from './topicslist/topicslist.component';
 import { CreateTopicComponent } from './create-topic/create-topic.component';
 import { TopicDetailsComponent } from './topic-details/topic-details.component';
-import { UpdateTopicsComponent } from './update-topics/update-topics.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +23,6 @@ import { UpdateTopicsComponent } from './update-topics/update-topics.component';
     TopicslistComponent,
     CreateTopicComponent,
     TopicDetailsComponent,
-    UpdateTopicsComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +34,7 @@ import { UpdateTopicsComponent } from './update-topics/update-topics.component';
     RouterModule.forRoot([
       {path:'', redirectTo: 'home', pathMatch: 'full'},
       {path: 'home', component: HomeComponent},
+<<<<<<< HEAD
       {path: 'topicslist', component: TopicslistComponent},
       {path: 'create-topic', component: CreateTopicComponent},
       {path:'update-topics/:id', component: UpdateTopicsComponent},
