@@ -40,7 +40,7 @@ import { UpdateTopicsComponent } from './update-topics/update-topics.component';
       {path: 'create-topic', component: CreateTopicComponent},
       {path:'update-topics/:id', component: UpdateTopicsComponent},
       {path:'topic-details/:id', component: TopicDetailsComponent},
-      
+
     ]),
     AuthModule.forRoot({
       domain: 'dev-88-8t7vx.us.auth0.com',

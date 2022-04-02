@@ -8,7 +8,7 @@ import { Topics } from './topics';
 })
 export class TopicsServiceService {
 
-  private baseURL = "https://herokuangtopic.herokuapp.com/home";
+  private baseURL = "https://herokuangtopic.herokuapp.com/";
 
   constructor(private httpClient: HttpClient) { }
   
