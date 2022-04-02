@@ -24,15 +24,17 @@
 
 - The Front-end responsive design would be **Bootstrap**
 
-[Hosted URL](https://herokuangtopic.herokuapp.com/home)
+## [Hosted URL](https://herokuangtopic.herokuapp.com/home)
 
-[Link For Backend repository](https://github.com/Sanjay-13/topic-of-the-day)
+## [Link For Backend repository](https://github.com/Sanjay-13/topic-of-the-day)
 
-[Link to Wiki](https://github.com/Sanjay-13/Topic-of-the-Day-2A/wiki)
+## [Link to Wiki](https://github.com/Sanjay-13/Topic-of-the-Day-2A/wiki)
 
-[Link to the issues](https://github.com/Sanjay-13/AngularFrontEnd/issues)
+## [Link to Issues](https://github.com/Sanjay-13/AngularFrontEnd/issues)
 
-[Link to the milestones](https://github.com/Sanjay-13/AngularFrontEnd/milestones)
+## [Link to Milestones](https://github.com/Sanjay-13/AngularFrontEnd/milestones)
+
+## [Link to JavaDoc](file:///C:/Users/S541669/Documents/EclipseProjects/topicoftheday/doc/index.html)
 
 ## Angular CLI Version
 
