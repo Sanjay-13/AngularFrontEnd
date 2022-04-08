@@ -36,7 +36,7 @@
 
 ## [Link to JavaDoc](file:///C:/Users/S541669/Documents/EclipseProjects/topicoftheday/doc/index.html)
 
-## [Link to Swagger](http://localhost:8080/swagger-ui.html#/topics-controller)
+## [Link to Swagger](https://sanjay-13.github.io/Swaggertopic/)
 
 ## Angular CLI Version
 
