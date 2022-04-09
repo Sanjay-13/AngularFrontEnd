@@ -34,7 +34,7 @@
 
 ## [Link to Milestones](https://github.com/Sanjay-13/AngularFrontEnd/milestones)
 
-## [Link to JavaDoc](file:///C:/Users/S541669/Documents/EclipseProjects/topicoftheday/doc/index.html)
+## [Link to JavaDoc](https://sanjay-13.github.io/AngularAppjavadoc/com/nwmsu/topicoftheday/package-summary.html)
 
 ## [Link to Swagger](https://sanjay-13.github.io/Swaggertopic/)
 
