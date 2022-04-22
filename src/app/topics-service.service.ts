@@ -8,7 +8,7 @@ import { Topics } from './topics';
 })
 export class TopicsServiceService {
 
-  private baseURL = "https://springtopicoftheday.herokuapp.com/";
+  private baseURL = "https://localhost:8080/topics/api/";
 
   constructor(private httpClient: HttpClient) { }
   
